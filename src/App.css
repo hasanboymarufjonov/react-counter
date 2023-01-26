@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 300%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -15%;
+}
+
+.counter {
+  font-size: 120%;
+  position: relative;
+  top: 10vh;
+}
+
+.button {
+  font-size: 60%;
+  position: relative;
+  top: 20vh;
+  margin-right: 5px;
+  border-radius: 8%;
+  color: white;
+}
+
+.button:first-child {
+  background-color: green;
+}
+
+.button:last-child {
+  background-color: red;
+}
